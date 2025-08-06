@@ -23,7 +23,7 @@ const greeting = {
   username: "Elisha Karanja", // Your name, this is also used in the page title ELISHA KARANJA
   title: "Hi, I'm Elisha ",
   subTitle:
-    "Passionate software developer with a focus on backend and full-stack projects. I love building apps with Python, Flask, React, and SQLite, and I’m currently exploring API architecture, authentication, and seamless frontend–backend integration.",
+    "I’m a software developer who builds scalable Flask APIs and dynamic React UIs. With a strong Python background, I’m now diving into AI Engineering—exploring language models and intelligent agents—while staying ready to pick up new tools and tackle fresh challenges.",
   resumeLink:
     "https://drive.google.com/file/d/1wSVKWgtHts2dQPgOXMZITpPdiPHvICnb/view?usp=sharing", // optional, can be Google Drive link or GitHub PDF
   displayGreeting: true
