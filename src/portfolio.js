@@ -23,7 +23,7 @@ const greeting = {
   username: "Elisha Karanja", // Your name, this is also used in the page title ELISHA KARANJA
   title: "Hi, I'm Elisha ",
   subTitle:
-    "I’m a software developer who builds scalable Flask APIs and dynamic React UIs. With a strong Python background, I’m now diving into AI Engineering—exploring language models and intelligent agents—while picking up new tools and tackling fresh challenges.",
+    "I’m a software developer who builds scalable Flask APIs and dynamic React UIs. With a strong Python background, I’m now diving into AI Engineering—exploring language models and intelligent agents, while picking up new tools and tackling fresh challenges.",
   resumeLink:
     "https://drive.google.com/file/d/10TNd2MI-4_2qg_WGlAXgDdPDwGopKvaV/view?usp=sharing", // optional, can be Google Drive link or GitHub PDF
   displayGreeting: true
@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/elishakaranja",
-  linkedin: "https://www.linkedin.com/in/your-linkedin-here", // or leave blank if not available
+  linkedin: "https://www.linkedin.com/in/elisha-karanja-b12337285", // or leave blank if not available
   gmail: "elishadominic74@gmail.com",
   //medium: "https://medium.com/@saadpasta",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
@@ -124,7 +124,7 @@ const educationInfo = {
       schoolName: "Moringa School",
       // logo: require("./assets/images/moringa.png"), // optional
       subHeader: "Software Engineering Certificate",
-      duration: "Jan 2025 - Sept 2025",
+      duration: "Nov - jul 2025",
       desc: "Focused on full-stack development, Flask, React, database systems, and teamwork in group projects.",
       grade: "Passed",
       descBullets: [
