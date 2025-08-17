@@ -3,7 +3,7 @@ import "./Skills.scss";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import {illustration, skillsSection} from "../../portfolio";
 import {Fade} from "react-reveal";
-import codingPerson from "../../assets/lottie/codingPerson";
+import robotBrain from "../../assets/lottie/robotBrain";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
@@ -15,10 +15,10 @@ export default function Skills() {
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
       <div className="skills-main-div">
-        {/* <Fade left duration={1000}>
+        <Fade left duration={1000}>
           <div className="skills-image-div">
             {illustration.animated ? (
-              <DisplayLottie animationData={codingPerson} />
+              <DisplayLottie animationData={robotBrain} />
             ) : (
               <img
                 alt="Man Working"
@@ -26,7 +26,7 @@ export default function Skills() {
               ></img>
             )}
           </div>
-        </Fade> */}
+        </Fade>
         <Fade right duration={1000}>
           <div className="skills-text-div">
             <h1
