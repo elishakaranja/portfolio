@@ -43,25 +43,25 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                  href={greeting.resumeLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="download-link-button"
-                >
-                  <Button text="View my resume" />
-                </a>
+                    href={greeting.resumeLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="download-link-button"
+                  >
+                    <Button text="View my resume" />
+                  </a>
                 )}
               </div>
             </div>
           </div>
           <div className="greeting-image-div">
-          {/* <DisplayLottie 
+            {/* <DisplayLottie 
             animationData={remoteWorker} 
             style={{ width: "800px", height: "800px" }} // adjust size here
             speed={0.3} // adjust animation speed (1 = normal, <1 slower, >1 faster)
           /> */}
 
-          {/* <DisplayLottie animationData={remoteWorker} /> */}
+            {/* <DisplayLottie animationData={remoteWorker} /> */}
             {/* {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
             ) : (

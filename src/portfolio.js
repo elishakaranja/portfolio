@@ -27,8 +27,7 @@ const greeting = {
   resumeLink:
     "https://drive.google.com/file/d/10TNd2MI-4_2qg_WGlAXgDdPDwGopKvaV/view?usp=sharing", // optional, can be Google Drive link or GitHub PDF
   displayGreeting: true
-  };
-
+};
 
 // Social Media Links
 
@@ -50,12 +49,24 @@ const skillsSection = {
   subTitle:
     "Backend-focused Full Stack developer with a passion for AI-driven applications, secure backend systems, and scalable full-stack solutions. I work across JavaScript/React and Python/Django/Flask/FastAPI, while leveraging tools like Docker, Git, and cloud services to deliver production-ready software.",
   skills: [
-    emoji("⚡ Architect and build RESTful & AI-powered APIs with Flask, FastAPI, and JWT/OAuth authentication"),
-    emoji("⚡ Design responsive, user-friendly UIs in ReactJS with modern state management"),
-    emoji("⚡ Model and optimize relational data (PostgreSQL, SQL) and exploring NoSQL for scalability"),
-    emoji("⚡ Integrate AI services (Azure OpenAI) into real-world apps using RAG and prompt engineering"),
-    emoji("⚡ Deploy and containerize applications with Docker and manage workflows via Git/GitHub"),
-    emoji("⚡ Deliver maintainable, production-grade code with a focus on clean architecture and testing"),
+    emoji(
+      "⚡ Architect and build RESTful & AI-powered APIs with Flask, FastAPI, and JWT/OAuth authentication"
+    ),
+    emoji(
+      "⚡ Design responsive, user-friendly UIs in ReactJS with modern state management"
+    ),
+    emoji(
+      "⚡ Model and optimize relational data (PostgreSQL, SQL) and exploring NoSQL for scalability"
+    ),
+    emoji(
+      "⚡ Integrate AI services (Azure OpenAI) into real-world apps using RAG and prompt engineering"
+    ),
+    emoji(
+      "⚡ Deploy and containerize applications with Docker and manage workflows via Git/GitHub"
+    ),
+    emoji(
+      "⚡ Deliver maintainable, production-grade code with a focus on clean architecture and testing"
+    )
   ],
   softwareSkills: [
     {
@@ -109,12 +120,9 @@ const skillsSection = {
   ],
   display: true
 };
-  
-  
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
+/* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
- 
 
 // Education Section
 
@@ -130,8 +138,8 @@ const educationInfo = {
       grade: "Passed",
       descBullets: [
         "Completed multiple full-stack projects using Flask + React",
-        "Led backend dev for ambulance request group project",
-      ],
+        "Led backend dev for ambulance request group project"
+      ]
     },
     {
       schoolName: "Oracle AI Foundations",
@@ -139,11 +147,10 @@ const educationInfo = {
       subHeader: "Certification in AI Foundations",
       duration: "2025 (In Progress)",
       desc: "Learned the basics of machine learning, neural networks, and ethical AI development using Python and Oracle Cloud.",
-      descBullets: ["Covered deep learning and Python AI frameworks"],
+      descBullets: ["Covered deep learning and Python AI frameworks"]
     }
-  ],
+  ]
 };
-
 
 // Your top 3 proficient stacks/tech experience
 
@@ -152,23 +159,23 @@ const techStack = {
   experience: [
     {
       Stack: "Backend ",
-      progressPercentage: "85%",
+      progressPercentage: "85%"
     },
     {
       Stack: "Frontend (React)",
-      progressPercentage: "70%",
+      progressPercentage: "70%"
     },
     {
-      Stack: "Programming", 
-      progressPercentage: "80%",
+      Stack: "Programming",
+      progressPercentage: "80%"
     },
     {
       Stack: "AI / ML (in progress)",
-      progressPercentage: "40%",
+      progressPercentage: "40%"
     },
     {
       Stack: "Database",
-      progressPercentage: "75%",
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -240,8 +247,6 @@ const workExperiences = {
     }
   ]
 };
-  
-
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -258,7 +263,7 @@ const bigProjects = {
   subtitle: "Projects that helped me gain experience and solve real problems",
   projects: [
     {
-     // image: require("./assets/images/ambulance-app.webp"),  // optional; placeholder ok
+      // image: require("./assets/images/ambulance-app.webp"),  // optional; placeholder ok
       projectName: "Ambulance Request App",
       projectDesc:
         "School-based group project enabling users to request ambulances via maps and tracking with JWT-authentication.",
@@ -270,7 +275,7 @@ const bigProjects = {
       ]
     },
     {
-     // image: require("./assets/images/libro-LLM.webp"), // optional; placeholder ok
+      // image: require("./assets/images/libro-LLM.webp"), // optional; placeholder ok
       projectName: "Libro LLM",
       projectDesc:
         "Command‑line library management app powered by a generative OpenAI assistant—search, add, and interact conversationally with book data.",
