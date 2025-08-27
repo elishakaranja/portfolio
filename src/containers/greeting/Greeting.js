@@ -2,9 +2,9 @@ import React, {useContext} from "react";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
-import remoteWorker from "../../assets/lottie/remoteWorker";
+// import remoteWorker from "../../assets/lottie/remoteWorker";
 // import waveHello from "../../assets/lottie/waveHello";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+// import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
@@ -55,11 +55,11 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-          <DisplayLottie 
+          {/* <DisplayLottie 
             animationData={remoteWorker} 
             style={{ width: "800px", height: "800px" }} // adjust size here
             speed={0.3} // adjust animation speed (1 = normal, <1 slower, >1 faster)
-          />
+          /> */}
 
           {/* <DisplayLottie animationData={remoteWorker} /> */}
             {/* {illustration.animated ? (

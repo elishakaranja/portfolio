@@ -3,13 +3,13 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import newSplashAnimation from "./assets/lottie/modular-mini-cubes.json"; // Rename to your file name for custom animation
 
 // Splash Screen
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
-  animation: splashAnimation,
+  animation: newSplashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
 
@@ -48,13 +48,14 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "Backend-focused developer with a strong passion for building secure, scalable APIs and full-stack apps using Flask, React, and modern architecture principles.",
+    "Backend-focused Full Stack developer with a passion for AI-driven applications, secure backend systems, and scalable full-stack solutions. I work across JavaScript/React and Python/Django/Flask/FastAPI, while leveraging tools like Docker, Git, and cloud services to deliver production-ready software.",
   skills: [
-    emoji("⚡ Architect and build RESTful APIs with Flask, Python, and JWT-based authentication"),
-    emoji("⚡ Design responsive, user-friendly UIs in React with effective state management"),
-    emoji("⚡ Model, query, and optimize relational data using SQLAlchemy and database design principles"),
-    emoji("⚡ Lead backend architecture and integrate secure frontend-backend communication"),
-    emoji("⚡ Deliver maintainable, production-ready code with a focus on clean structure and testing"),
+    emoji("⚡ Architect and build RESTful & AI-powered APIs with Flask, FastAPI, and JWT/OAuth authentication"),
+    emoji("⚡ Design responsive, user-friendly UIs in ReactJS with modern state management"),
+    emoji("⚡ Model and optimize relational data (PostgreSQL, SQL) and exploring NoSQL for scalability"),
+    emoji("⚡ Integrate AI services (Azure OpenAI) into real-world apps using RAG and prompt engineering"),
+    emoji("⚡ Deploy and containerize applications with Docker and manage workflows via Git/GitHub"),
+    emoji("⚡ Deliver maintainable, production-grade code with a focus on clean architecture and testing"),
   ],
   softwareSkills: [
     {
