@@ -21,11 +21,11 @@ const illustration = {
 
 const greeting = {
   username: "Elisha Karanja", // Your name, this is also used in the page title ELISHA KARANJA
-  title: "Hi, I'm Elisha ",
+  title: "Hi, I'm Elisha",
   subTitle:
-    "I’m a software developer who builds scalable Flask APIs and dynamic React UIs. With a strong Python background, I’m now diving into AI Engineering—exploring language models and intelligent agents, while picking up new tools and tackling fresh challenges.",
+    "I’m a backend-focused software engineer building RESTful APIs, transactional systems, and full-stack applications using Python, Flask, SQL, and React. I care about clean data models, secure authentication flows, and predictable API behavior.\n\nRecently, I’ve been working on AI-enabled backend systems, including Retrieval-Augmented Generation pipelines, with a focus on grounding model outputs in reliable data sources rather than generic LLM responses.",
   resumeLink:
-    "https://drive.google.com/file/d/10TNd2MI-4_2qg_WGlAXgDdPDwGopKvaV/view?usp=sharing", // optional, can be Google Drive link or GitHub PDF
+    "https://docs.google.com/document/d/1MOMbAyqxzfXXD40bMV_pEcvmFmINYOriz-sCst_9b3s/edit?usp=sharing", // optional, can be Google Drive link or GitHub PDF
   displayGreeting: true
 };
 
@@ -49,23 +49,19 @@ const skillsSection = {
   subTitle:
     "Backend-focused Full Stack developer with a passion for AI-driven applications, secure backend systems, and scalable full-stack solutions. I work across JavaScript/React and Python/Django/Flask/FastAPI, while leveraging tools like Docker, Git, and cloud services to deliver production-ready software.",
   skills: [
+    emoji("• Backend and API development using Python, Flask, and FastAPI"),
     emoji(
-      "⚡ Architect and build RESTful & AI-powered APIs with Flask, FastAPI, and JWT/OAuth authentication"
+      "• Integrating React frontends with backend services through clean REST APIs"
+    ),
+    emoji("• Designing relational data models using PostgreSQL and SQL"),
+    emoji(
+      "• Adding AI capabilities to applications using Azure OpenAI and RAG pipelines"
     ),
     emoji(
-      "⚡ Design responsive, user-friendly UIs in ReactJS with modern state management"
+      "• Deploying containerized applications with Docker and managing version control with Git"
     ),
     emoji(
-      "⚡ Model and optimize relational data (PostgreSQL, SQL) and exploring NoSQL for scalability"
-    ),
-    emoji(
-      "⚡ Integrate AI services (Azure OpenAI) into real-world apps using RAG and prompt engineering"
-    ),
-    emoji(
-      "⚡ Deploy and containerize applications with Docker and manage workflows via Git/GitHub"
-    ),
-    emoji(
-      "⚡ Deliver maintainable, production-grade code with a focus on clean architecture and testing"
+      "• Maintaining readable, testable codebases in collaborative environments"
     )
   ],
   softwareSkills: [
@@ -142,10 +138,21 @@ const educationInfo = {
       ]
     },
     {
+      schoolName: "Oracle Generative AI Certification",
+      // logo: require("./assets/images/oracle.png"),
+      subHeader: "Professional Certification",
+      duration: "2025",
+      desc: "Completed the Oracle Generative AI Professional Certification, gaining expertise in large language models, prompt engineering, and building generative AI solutions on Oracle Cloud Infrastructure.",
+      descBullets: [
+        "Mastered the fundamentals of generative AI and large language models.",
+        "Learned to apply generative AI for various use cases, including content generation, summarization, and conversational AI."
+      ]
+    },
+    {
       schoolName: "Oracle AI Foundations",
       // logo: require("./assets/images/oracle.png"),
       subHeader: "Certification in AI Foundations",
-      duration: "2025 (In Progress)",
+      duration: "2025",
       desc: "Learned the basics of machine learning, neural networks, and ethical AI development using Python and Oracle Cloud.",
       descBullets: ["Covered deep learning and Python AI frameworks"]
     }
@@ -190,7 +197,7 @@ const workExperiences = {
       role: "Frontend Developer",
       company: "Microsoft JavaScript Buildathon",
       // companylogo: require("./assets/images/microsoft.png"),
-      date: "May 2025",
+      date: "",
       desc: "Participated in a Microsoft-hosted buildathon where we built a company staff support chatbot using JavaScript, Azure OpenAI, and Azure Cognitive Services as part of the Microsoft JavaScript AI Buildathon. .",
       descBullets: [
         "Deployed AI models to Azure and used AI agents",
@@ -202,7 +209,7 @@ const workExperiences = {
       role: "Backend Developer",
       company: "Ambulance Request App (Group Project)",
       // companylogo: require("./assets/images/group.png"),
-      date: "April 2025",
+      date: "",
       desc: "Worked in a team to build an emergency ambulance dispatch platform using Flask and React.",
       descBullets: [
         "Led backend architecture, models, and JWT authentication",
@@ -212,20 +219,9 @@ const workExperiences = {
     },
     {
       role: "Full-Stack Developer",
-      company: "Libro (Personal Project)",
-      // companylogo: require("./assets/images/libro.png"),
-      date: "Feb 2025",
-      desc: "Developed a personal book management app using Flask for the backend and simple HTML/CSS for the frontend.",
-      descBullets: [
-        "Built CRUD APIs using Flask and SQLite",
-        "Implemented user-friendly book catalog interface"
-      ]
-    },
-    {
-      role: "Full-Stack Developer",
-      company: "Ticketi (Ongoing)",
+      company: "Ticketi",
       // companylogo: require("./assets/images/ticketi.png"),
-      date: "2025 (in progress)",
+      date: "",
       desc: "Creating a full-stack event ticketing app using React for the frontend and Flask for the backend.",
       descBullets: [
         "Supports event creation, listing, and ticket purchase",
@@ -237,7 +233,7 @@ const workExperiences = {
       role: "Frontend Developer",
       company: "Mshigana - Group Project",
       // companylogo: require("./assets/images/mshigana.png"),
-      date: "March 2025",
+      date: "",
       desc: "Contributed to a peer-to-peer money transfer platform with a user-friendly interface.",
       descBullets: [
         "Designed and implemented frontend in React",
@@ -263,26 +259,26 @@ const bigProjects = {
   subtitle: "Projects that helped me gain experience and solve real problems",
   projects: [
     {
-      // image: require("./assets/images/ambulance-app.webp"),  // optional; placeholder ok
-      projectName: "Ambulance Request App",
+      // image: require("./assets/images/mindset-coach.webp"),  // optional; placeholder ok
+      projectName: "Mindset Coach",
       projectDesc:
-        "School-based group project enabling users to request ambulances via maps and tracking with JWT-authentication.",
+        "An AI powered mindset-coach that bases its answers on scientific research using RAG.",
       footerLink: [
         {
           name: "View Code",
-          url: "https://github.com/fahmy-dev/ambulance-app"
+          url: "https://github.com/elishakaranja/Mindset_coach"
         }
       ]
     },
     {
-      // image: require("./assets/images/libro-LLM.webp"), // optional; placeholder ok
-      projectName: "Libro LLM",
+      // image: require("./assets/images/ticketi.webp"), // optional; placeholder ok
+      projectName: "Ticketi",
       projectDesc:
-        "Command‑line library management app powered by a generative OpenAI assistant—search, add, and interact conversationally with book data.",
+        "A full-stack event ticketing app using React, Flask, and JWT authentication.",
       footerLink: [
         {
           name: "View Code",
-          url: "https://github.com/elishakaranja/libro-LMS"
+          url: "https://github.com/elishakaranja/ticketi"
         }
       ]
     }
@@ -341,7 +337,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
