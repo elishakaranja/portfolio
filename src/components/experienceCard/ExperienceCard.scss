@@ -154,3 +154,33 @@
     font-size: 16px;
   }
 }
+
+.experience-card-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.experience-card-footer span.project-tag {
+  background: $buttonColor;
+  color: #000000 !important;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2.5em;
+  justify-content: center;
+  white-space: nowrap;
+  line-height: 1.5;
+  margin: 0 0.5rem 0.5rem 0.5rem;
+  padding: 0 0.75em;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  font-weight: 600;
+}
+
+.experience-card-footer span.project-tag:hover {
+  background: $buttonHover;
+}
+

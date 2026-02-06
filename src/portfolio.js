@@ -4,6 +4,8 @@
 
 import emoji from "react-easy-emoji";
 import newSplashAnimation from "./assets/lottie/modular-mini-cubes.json"; // Rename to your file name for custom animation
+import resume from "./assets/Elisha_Karanja_Software_Engineer.pdf";
+
 
 // Splash Screen
 
@@ -24,8 +26,7 @@ const greeting = {
   title: "Hi, I'm Elisha",
   subTitle:
     "I’m a backend-focused software engineer building RESTful APIs, transactional systems, and full-stack applications using Python, Flask, SQL, and React. I care about clean data models, secure authentication flows, and predictable API behavior.\n\nRecently, I’ve been working on AI-enabled backend systems, including Retrieval-Augmented Generation pipelines, with a focus on grounding model outputs in reliable data sources rather than generic LLM responses.",
-  resumeLink:
-    "https://docs.google.com/document/d/1MOMbAyqxzfXXD40bMV_pEcvmFmINYOriz-sCst_9b3s/edit?usp=sharing", // optional, can be Google Drive link or GitHub PDF
+  resumeLink: resume, // optional, can be Google Drive link or GitHub PDF
   displayGreeting: true
 };
 
@@ -215,6 +216,12 @@ const workExperiences = {
         "Led backend architecture, models, and JWT authentication",
         "Coordinated data flow between frontend and backend with secure APIs",
         "Helped integrate ambulance locations into the map view"
+      ],
+      footerLink: [
+        {
+          name: "View Code",
+          url: "https://github.com/fahmy-dev/ambulance-app"
+        }
       ]
     },
     {
@@ -239,6 +246,16 @@ const workExperiences = {
         "Designed and implemented frontend in React",
         "Collaborated on user authentication and dashboard features",
         "Worked closely with backend team to integrate wallet features"
+      ],
+      footerLink: [
+        {
+          name: "Watch Demo",
+          url: "https://www.loom.com/share/bdf59220680c4ddc8b2f5330a39fbd5c?sid=feae19d4-90e7-4fd9-ba66-1015ede192c3"
+        },
+        {
+          name: "View Code",
+          url: "https://github.com/Steamgx/M-SHIGANA"
+        }
       ]
     }
   ]
