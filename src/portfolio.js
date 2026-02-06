@@ -234,6 +234,12 @@ const workExperiences = {
         "Supports event creation, listing, and ticket purchase",
         "Uses JWT for authentication and secure user sessions",
         "Handles multiple user roles (organizer, attendee)"
+      ],
+      footerLink: [
+        {
+          name: "View Code",
+          url: "https://github.com/elishakaranja/ticketi"
+        }
       ]
     },
     {
