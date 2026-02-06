@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.948d38f0.css",
-    "main.js": "/portfolio/static/js/main.3dbe8cd9.js",
+    "main.css": "/portfolio/static/css/main.9c5a8020.css",
+    "main.js": "/portfolio/static/js/main.5850e6b1.js",
     "static/css/64.bcd93e05.chunk.css": "/portfolio/static/css/64.bcd93e05.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/portfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/portfolio/static/css/769.b3cbb36b.chunk.css",
-    "static/js/769.7d127d0f.chunk.js": "/portfolio/static/js/769.7d127d0f.chunk.js",
+    "static/js/769.eeb95a02.chunk.js": "/portfolio/static/js/769.eeb95a02.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Elisha_Karanja_Software_Engineer.pdf": "/portfolio/static/media/Elisha_Karanja_Software_Engineer.9f7d7d12fff057f236f9.pdf",
     "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/contactMailDark.svg": "/portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
@@ -16,15 +17,15 @@
     "static/media/pwaLogo.webp": "/portfolio/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
     "index.html": "/portfolio/index.html",
     "static/media/talksCardBack.svg": "/portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.948d38f0.css.map": "/portfolio/static/css/main.948d38f0.css.map",
-    "main.3dbe8cd9.js.map": "/portfolio/static/js/main.3dbe8cd9.js.map",
+    "main.9c5a8020.css.map": "/portfolio/static/css/main.9c5a8020.css.map",
+    "main.5850e6b1.js.map": "/portfolio/static/js/main.5850e6b1.js.map",
     "64.bcd93e05.chunk.css.map": "/portfolio/static/css/64.bcd93e05.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/portfolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/portfolio/static/css/769.b3cbb36b.chunk.css.map",
-    "769.7d127d0f.chunk.js.map": "/portfolio/static/js/769.7d127d0f.chunk.js.map"
+    "769.eeb95a02.chunk.js.map": "/portfolio/static/js/769.eeb95a02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.948d38f0.css",
-    "static/js/main.3dbe8cd9.js"
+    "static/css/main.9c5a8020.css",
+    "static/js/main.5850e6b1.js"
   ]
 }
