@@ -6,7 +6,6 @@ import emoji from "react-easy-emoji";
 import newSplashAnimation from "./assets/lottie/modular-mini-cubes.json"; // Rename to your file name for custom animation
 // import resume from "./assets/Elisha_Karanja_Software_Engineer.pdf";
 
-
 // Splash Screen
 
 const splashScreen = {
@@ -26,7 +25,8 @@ const greeting = {
   title: "Hi, I'm Elisha",
   subTitle:
     "I’m a backend-focused software engineer building RESTful APIs, transactional systems, and full-stack applications using Python, Flask, SQL, and React. I care about clean data models, secure authentication flows, and predictable API behavior.\n\nRecently, I’ve been working on AI-enabled backend systems, including Retrieval-Augmented Generation pipelines, with a focus on grounding model outputs in reliable data sources rather than generic LLM responses.",
-  resumeLink: "https://docs.google.com/document/d/1AApTxl271D6yN0353xkNTsrvkx2Slb-GAma3mPX5mTU/edit?usp=sharing", // optional, can be Google Drive link or GitHub PDF
+  resumeLink:
+    "https://docs.google.com/document/d/1AApTxl271D6yN0353xkNTsrvkx2Slb-GAma3mPX5mTU/edit?usp=sharing", // optional, can be Google Drive link or GitHub PDF
   displayGreeting: true
 };
 
@@ -360,7 +360,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        { name: "Certification", url: "" },
+        {name: "Certification", url: ""},
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -453,6 +453,25 @@ const twitterDetails = {
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
+// Case Studies Section
+
+const caseStudies = {
+  display: true,
+  title: "Strategic Systems Case Studies",
+  subtitle:
+    "Analyzing and optimizing complex processes for operational excellence",
+  stories: [
+    {
+      title: "Regulatory Process Structuring — PPB Renewal Framework",
+      organization: "Pharmacy and Poisons Board (Kenya)",
+      overview:
+        "A structural clarity project focused on breaking down dense, policy-driven pharmaceutical guidelines into an operational and usable renewal framework.",
+      narrative:
+        "### Context\n\nThe Pharmacy and Poisons Board provides national guidelines for the renewal and re-registration of marketing authorization for medicines and vaccines. These guidelines define the documentation, compliance evidence, and procedural requirements that pharmaceutical companies must meet to maintain product approval.\n\nThe challenge was not technical development — it was structural clarity.\n\nThe documentation is dense, policy-driven, and compliance-heavy. My role was to break it down into something operational and usable.\n\n### Problem\n\nRegulatory guidelines are written for legal and compliance purposes — not for operational execution.\n\nThis creates friction:\n\n- Teams may misinterpret submission requirements.\n- Missing documentation leads to rejection or delays.\n- Delays can affect product availability and revenue continuity.\n- There is often no clear internal workflow aligning documentation review, compliance validation, and submission tracking.\n\nIn short: the information existed, but it was not structured for execution.\n\n### Approach\n\nI approached the guideline as a systems problem.\n\n1. Extracted all submission requirements into categorized components (administrative, technical, GMP, post-market surveillance).\n2. Converted policy language into a structured compliance checklist.\n3. Designed a simplified 6-stage renewal workflow:\n   - Documentation intake\n   - Requirement validation\n   - Compliance evidence verification\n   - Gap identification\n   - Submission preparation\n   - Tracking & follow-up\n4. Identified bottlenecks where incomplete documentation could delay approval.\n5. Produced structured implementation notes translating policy into operational steps.\n\nRather than treating the document as static regulation, I treated it as a process blueprint.\n\n### Outcome\n\nThe result was a structured renewal framework that:\n\n- Reduced ambiguity around submission requirements.\n- Provided a clear operational checklist.\n- Improved accountability by mapping stages to responsible roles.\n- Reduced the risk of incomplete submissions.\n- Connected compliance readiness with business continuity.\n\nThis project reinforced my ability to:\n\n- Work with complex, high-accountability documentation.\n- Extract structure from dense material.\n- Design process-oriented systems.\n- Think about operational risk and commercial impact.\n\n### Why This Matters to My Work\n\nWhether building APIs, designing workflows, or modernizing digital systems, the principle is the same:\n\nStructure reduces friction.\nClarity reduces risk.\nProcess drives results.\n\nThis project strengthened my systems thinking — the same mindset I apply to backend architecture and digital optimization work."
+    }
+  ]
+};
+
 export {
   illustration,
   greeting,
@@ -471,5 +490,6 @@ export {
   contactInfo,
   twitterDetails,
   isHireable,
-  resumeSection
+  resumeSection,
+  caseStudies
 };
