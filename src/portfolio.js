@@ -4,7 +4,7 @@
 
 import emoji from "react-easy-emoji";
 import newSplashAnimation from "./assets/lottie/modular-mini-cubes.json"; // Rename to your file name for custom animation
-import resume from "./assets/Elisha_Karanja_Software_Engineer.pdf";
+// import resume from "./assets/Elisha_Karanja_Software_Engineer.pdf";
 
 
 // Splash Screen
@@ -26,7 +26,7 @@ const greeting = {
   title: "Hi, I'm Elisha",
   subTitle:
     "I’m a backend-focused software engineer building RESTful APIs, transactional systems, and full-stack applications using Python, Flask, SQL, and React. I care about clean data models, secure authentication flows, and predictable API behavior.\n\nRecently, I’ve been working on AI-enabled backend systems, including Retrieval-Augmented Generation pipelines, with a focus on grounding model outputs in reliable data sources rather than generic LLM responses.",
-  resumeLink: resume, // optional, can be Google Drive link or GitHub PDF
+  resumeLink: "https://docs.google.com/document/d/1AApTxl271D6yN0353xkNTsrvkx2Slb-GAma3mPX5mTU/edit?usp=sharing", // optional, can be Google Drive link or GitHub PDF
   displayGreeting: true
 };
 
