@@ -22,7 +22,7 @@ export default function CaseStudies() {
 
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="caseStudies">
+      <div className="main" id="experience">
         <div className="case-studies-header">
           <h1 className={isDark ? "dark-mode heading" : "heading"}>
             {caseStudies.title}
@@ -38,8 +38,10 @@ export default function CaseStudies() {
               className={isDark ? "dark-mode case-card" : "case-card"}
             >
               <div className="case-content">
-                <h2 className="case-title">{story.title}</h2>
-                <h3 className="case-org">{story.organization}</h3>
+                <div className="case-header-row">
+                  <h2 className="case-title">{story.title}</h2>
+                  <h3 className="case-org">{story.organization}</h3>
+                </div>
                 <p className="case-overview">{story.overview}</p>
 
                 <button

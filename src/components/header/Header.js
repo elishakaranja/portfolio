@@ -12,7 +12,9 @@ import {
   talkSection,
   achievementSection,
   resumeSection,
-  caseStudies
+  caseStudies,
+  educationInfo,
+  techStack
 } from "../../portfolio";
 
 function Header() {
@@ -25,6 +27,8 @@ function Header() {
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
   const viewCaseStudies = caseStudies.display;
+  const viewEducation = educationInfo.display;
+  const viewProficiency = techStack.viewSkillBars;
 
   return (
     <Headroom>
@@ -48,14 +52,19 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
-          {viewExperience && (
+          {viewProficiency && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#proficiency">Proficiency</a>
             </li>
           )}
-          {viewCaseStudies && (
+          {viewEducation && (
             <li>
-              <a href="#caseStudies">Case Studies</a>
+              <a href="#education">Education</a>
+            </li>
+          )}
+          {(viewExperience || viewCaseStudies) && (
+            <li>
+              <a href="#experience">Experience</a>
             </li>
           )}
           {viewOpenSource && (
