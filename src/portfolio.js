@@ -195,32 +195,38 @@ const workExperiences = {
   display: true, // set to false to hide
   experience: [
     {
-      role: "Frontend Developer",
-      company: "Microsoft JavaScript Buildathon",
-      // companylogo: require("./assets/images/microsoft.png"),
+      role: "Backend AI Developer",
+      company: "Pharma Sorter",
+      // companylogo: require("./assets/images/pharma-sorter.png"),
       date: "",
-      desc: "Participated in a Microsoft-hosted buildathon where we built a company staff support chatbot using JavaScript, Azure OpenAI, and Azure Cognitive Services as part of the Microsoft JavaScript AI Buildathon. .",
+      desc: "Built an automated system to organize pharmaceutical regulatory documents and packaging images using OCR and a local LLM (Ollama).",
       descBullets: [
-        "Deployed AI models to Azure and used AI agents",
-        "Integrated an AI assistant powered by Azure OpenAI for answering waste management queries",
-        "Implimented RAG "
-      ]
-    },
-    {
-      role: "Backend Developer",
-      company: "Ambulance Request App (Group Project)",
-      // companylogo: require("./assets/images/group.png"),
-      date: "",
-      desc: "Worked in a team to build an emergency ambulance dispatch platform using Flask and React.",
-      descBullets: [
-        "Led backend architecture, models, and JWT authentication",
-        "Coordinated data flow between frontend and backend with secure APIs",
-        "Helped integrate ambulance locations into the map view"
+        "Implemented OCR to extract text from images and documents",
+        "Configured cascade fallback logic to use a local LLM (Ollama) to classify and sort regulatory files",
+        "Developed a scalable structure for pharmaceutical document management"
       ],
       footerLink: [
         {
           name: "View Code",
-          url: "https://github.com/fahmy-dev/ambulance-app"
+          url: "https://github.com/elishakaranja/Pharma-Sorter"
+        }
+      ]
+    },
+    {
+      role: "Backend Data Engineer",
+      company: "Events Data Pipeline",
+      // companylogo: require("./assets/images/events-data.png"),
+      date: "",
+      desc: "Created a Python data processing pipeline using Pandas to organize event datasets into regions and countries.",
+      descBullets: [
+        "Processed thousands of attendee data from various file types including spreadsheets and PDFs",
+        "Cleaned and categorized data systematically using Pandas. Implimented deduplication and standardization as well as reporting to extract valuble business insights",
+        "The Automated classification cut time and toil of work from 6 weeks to 1 week"
+      ],
+      footerLink: [
+        {
+          name: "View Code",
+          url: "https://github.com/elishakaranja/Events_Data_Sorter"
         }
       ]
     },
@@ -282,6 +288,18 @@ const bigProjects = {
   subtitle: "Projects that helped me gain experience and solve real problems",
   projects: [
     {
+      // image: require("./assets/images/pharma-sorter.webp"),  // optional; placeholder ok
+      projectName: "AI Pharmaceutical Document Sorter",
+      projectDesc:
+        "An automated system to organize pharmaceutical regulatory documents and packaging images using OCR and a local LLM (Ollama).",
+      footerLink: [
+        {
+          name: "View Code",
+          url: "https://github.com/elishakaranja/Pharma-Sorter"
+        }
+      ]
+    },
+    {
       // image: require("./assets/images/mindset-coach.webp"),  // optional; placeholder ok
       projectName: "Mindset Coach",
       projectDesc:
@@ -290,18 +308,6 @@ const bigProjects = {
         {
           name: "View Code",
           url: "https://github.com/elishakaranja/Mindset_coach"
-        }
-      ]
-    },
-    {
-      // image: require("./assets/images/ticketi.webp"), // optional; placeholder ok
-      projectName: "Ticketi",
-      projectDesc:
-        "A full-stack event ticketing app using React, Flask, and JWT authentication.",
-      footerLink: [
-        {
-          name: "View Code",
-          url: "https://github.com/elishakaranja/ticketi"
         }
       ]
     }
@@ -360,7 +366,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
